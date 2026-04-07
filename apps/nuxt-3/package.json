@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "prebuild": "pnpm --filter @my-org/ui... build && pnpm --filter @my-org/utils... build",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
