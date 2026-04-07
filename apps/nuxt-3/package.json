@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@my-org/ui": "link:../../packages/ui",
+    "@my-org/utils": "link:../../packages/utils",
+    "nuxt": "^3.21.2",
+    "vue": "^3.5.31",
+    "vue-router": "^5.0.4"
+  }
+}
