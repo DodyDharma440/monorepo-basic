@@ -6,9 +6,7 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/ui-lib.umd.cjs",
-  "module": "./dist/ui-lib.es.js",
-  "types": "./dist/src/index.d.ts",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
@@ -18,9 +16,11 @@
     "vue": "^3.5.32"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
     "@types/node": "^24.12.2",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue/tsconfig": "^0.9.1",
+    "tailwindcss": "^4.2.2",
     "typescript": "~6.0.2",
     "vite": "^8.0.4",
     "vite-plugin-dts": "^4.5.4",
